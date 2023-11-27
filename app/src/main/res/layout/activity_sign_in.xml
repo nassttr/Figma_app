@@ -61,12 +61,14 @@
             android:backgroundTint="@color/green_btn"
             android:fontFamily="@font/alegreya_regular"
             android:hint="Password"
+            android:inputType="textPassword"
             android:minHeight="48dp"
-            android:textColorHint="@color/color_edittext"
             android:textColor="@color/color_edittext"
+            android:textColorHint="@color/color_edittext"
             android:textSize="18dp" />
 
         <Button
+            android:id="@+id/btn_SignIn"
             android:layout_width="match_parent"
             android:layout_height="61dp"
             android:onClick="signin"
